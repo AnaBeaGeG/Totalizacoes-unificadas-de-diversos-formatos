@@ -11,7 +11,7 @@ Tal código foi desenvolvido para realizar o gerenciamento das etapas de process
 - Nem sempre as totalizações dos arquivos em parquet são verdadeiras, visto que caso o processo de crítica tenha sido rodado mais de uma vez os dados são repetidos dentro do mesmo arquivo. Além disso, dentro da função 'arq_parquet' precisamos realizar a leitura de diversos arquivos em parquet, pois o processo de critica é feito em lotes a partir do limite de x linhas.
   - Para saber quantas linhas estão de fato repetidas em parquet, usamos as informações presente da coluna 'repeticoes' das tabelas do banco, que deveriam ser exatamente os parquets sem registros repetidos.
 
-  Para a execução do código são necessárias a instalação de algumas bibliotecas:
+**Para a execução do código são necessárias a instalação de algumas bibliotecas:**
 - `os`, `re`: manipulação de diretórios e expressões regulares;
 - `pandas`, `numpy`: manipulação de dados;
 - `dbfread`, `simpledbf`: leitura e conversão de arquivos `.dbf`;
