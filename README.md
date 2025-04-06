@@ -19,10 +19,10 @@ Tal código foi desenvolvido para realizar o gerenciamento das etapas de process
 
 **Resumindo as Funcionalidades do código ⚙️...**
    O notebook executa:
-  -Busca recursiva por arquivos .dbf, .parquet e .csv em diretórios da rede local.
-  -Leitura e contagem de registros para cada tipo de arquivo.
-  -Agrupamento por tipo de dado, ramo, ano, empresa e código da empresa.
-  -Comparação da quantidade de registros entre os diferentes formatos para validação de consistência.
-  -Exportação dos resultados para uma planilha Excel.
+  -Busca recursiva por arquivos .dbf, .parquet e .csv em diretórios da rede local;
+  -Leitura e contagem de registros para cada tipo de arquivo;
+  -Agrupamento por tipo de dado, ramo, ano, empresa e código da empresa;
+  -Comparação da quantidade de registros entre os diferentes formatos para validação de consistência;
+  -Exportação dos resultados para uma planilha Excel;
   -Emissão de alerta sonoro ao final da execução.
   
