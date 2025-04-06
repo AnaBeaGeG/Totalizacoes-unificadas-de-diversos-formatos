@@ -18,7 +18,6 @@ Tal código foi desenvolvido para realizar o gerenciamento das etapas de process
 - `openpyxl`: leitura de arquivos `.xlsx`.
 
 **Resumindo as Funcionalidades do código ⚙️...**
-   O notebook executa:
   -Busca recursiva por arquivos .dbf, .parquet e .csv em diretórios da rede local;
   -Leitura e contagem de registros para cada tipo de arquivo;
   -Agrupamento por tipo de dado, ramo, ano, empresa e código da empresa;
